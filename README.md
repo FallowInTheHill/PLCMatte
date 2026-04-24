@@ -13,7 +13,6 @@ Trained model on Composition1k dataset, use MAE_Pretrain_ViT_base as pretrained 
 | ViTMatte (Baseline) | $3.0 \times 10^{-3}$ | 6.7    | 96.69 M |                            (See ViTMatte)                            |
 |   PLCMatte (Ours)   | $2.6 \times10^{-3}$  | 5.7    | 95.22 M  | [Link](https://pan.baidu.com/s/16vKhVkU1OaHHD3x8FCucjw?pwd=pd3e) (pd3e) |
 
-
 ## Question narrates
 
 The lack of supervision in the intermediate process of the deep matting model makes the correctness of the features in the decoding stage unrecognizable. The following is a visualized display of the feature defects in the decoding stage of existing deep matting methods, which correspond to the defects in the predicted alpha mattes.
@@ -40,7 +39,7 @@ $\text{N}_\text{C}/\text{N}$ means the ratio of number of feature maps with at l
 | MGM             | 0.40  | 2/32 (0.06)                           | 6.8 |
 | ViTMatte        | 0.33  | 9/64 (0.14)                           | 3.0 |
 | MEMatte         | 0.31  | 6/64 (0.09)                          | 3.1 |
-| PLCMatte (Ours) | $\bold{ 0.82}$  | 86/96 $(\bold{0.90})$                         |$ \bold{2.6}$ |
+| PLCMatte (Ours) | $0.82$  | 86/96 $(0.90)$                         |$2.6$ |
 
 ## Liminations
 
