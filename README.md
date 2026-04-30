@@ -2,7 +2,7 @@
 
 Paper Title: Supervising Features of Image Matting Decoders via Pixel-wise Correlation between Feature and Alpha values.
 
-This is the officially released code repository of PLCMatte. More detailed code will be released in the future.
+This is the officially released code repository of PLCMatte. 
 
 ## Model
 
