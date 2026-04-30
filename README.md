@@ -45,5 +45,5 @@ $\text{N}_\text{C}/\text{N}$ means the ratio of number of feature maps with at l
 
 PLCMatte exhibited suboptimal performance when the background and foreground shared similar characteristics, as illustrated below.
 
-![](./figs/liminations.png)
+![limination](./figs/liminations.png)
 
