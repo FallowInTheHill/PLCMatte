@@ -17,13 +17,13 @@ Trained model on Composition1k dataset, use MAE_Pretrain_ViT_base as pretrained 
 
 The lack of supervision in the intermediate process of the deep matting model makes the correctness of the features in the decoding stage unrecognizable. The following is a visualized display of the feature defects in the decoding stage of existing deep matting methods, which correspond to the defects in the predicted alpha mattes.
 
-![question](./figs/question.png)
+![question](figs/question.png)
 
 ## Visualized Results
 
 Reasults on Composition1K:
 
-![CompoRes](./figs/ResOnCompo.png)
+![CompoRes](figs/ResOnCompo.png)
 
 ## Impact and Effectiveness
 
@@ -45,5 +45,5 @@ $\text{N}_\text{C}/\text{N}$ means the ratio of number of feature maps with at l
 
 PLCMatte exhibited suboptimal performance when the background and foreground shared similar characteristics, as illustrated below.
 
-![limination](./figs/liminations.png)
+![limination](figs/liminations.png)
 
